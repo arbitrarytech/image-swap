@@ -1,0 +1,12 @@
+﻿{
+  "manifest_version": 2,
+    "version": "1.0",
+  "name": "Image Enhancer",
+  "description": "Make your images more interesting",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*","<all_urls>"],
+      "js": ["swap.js"]
+    }
+  ]
+  }
